@@ -11,7 +11,10 @@ const Home = () => {
 
 			<div className="m-auto">
 				<Hero></Hero>
-				<Skills />
+				<div className="md:w-[80%] mx-auto my-28">
+					<h1 className="text-4xl text-center font-bold mt-8">Habilidades</h1>
+					<Skills />
+				</div>
 			</div>
 		</>
 	);

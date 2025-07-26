@@ -49,4 +49,9 @@ export const skills = [
     title: "Express.js",
     desc: "Desarrollo de aplicaciones Backend de la mano con Node.js."
   },
+  {
+    icon: "/figma.png",
+    title: "Figma",
+    desc: "Diseño UI/UX utilizando Figma, enfocado en la accesibilidad y un diseño emocionalmente inteligente."
+  },
 ]; 
