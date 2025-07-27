@@ -42,6 +42,10 @@ const Navbar = () => {
 						<a href="/">Diego L.</a>
 					</h1>
 					<ul className="flex items-center justify-center font-medium text-white gap-4 font-geist">
+							<li key="dosi" className="hover:bg-cyan-300 hover:text-black rounded-xl px-3 py-1 transition-all duration-300">
+								<a href="/dosi">Dosi</a>
+							</li>
+
 						{links.map((link) => (
 							<li key={link.label} className="hover:bg-gray-hard rounded-xl px-3 py-1 transition-all duration-300">
 								<a href={link.link}>{link.label}</a>
