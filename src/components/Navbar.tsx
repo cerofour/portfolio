@@ -34,7 +34,7 @@ const Navbar = () => {
 	return (
 		<nav
 			ref={navRef}
-			className={`shadow-lg h-16 flex items-center bg-black w-full z-50 fixed top-0 left-0 transition-all duration-300 ${scrolled ? "backdrop-blur-md bg-black/80" : ""}`}
+			className={`shadow-lg h-16 flex items-center bg-black w-full z-50 fixed top-0 left-0 transition-all duration-300 ${scrolled ? "backdrop-blur-lg bg-black/80" : ""}`}
 		>
 			<div className="w-full">
 				<div className="flex w-full justify-between px-8">
