@@ -13,7 +13,7 @@ const DosiHero = () => {
 			/>
 			<div className="absolute inset-0 z-10 bg-black/30" />
 			<div className="relative z-20 grid md:grid-cols-2 w-full p-8">
-				<div className="col-span-2 md:col-span-1 flex flex-col items-start gap-4">
+				<div className="col-span-2 md:col-span-1 flex flex-col items-start gap-4 py-8">
 					<h1 className="text-5xl font-bold text-white drop-shadow-lg">Dosi</h1>
 					<h3 className="text-xl text-gay-300 text-white drop-shadow">
 						Tu app de Recordatorios Médicos Favorita
@@ -37,7 +37,7 @@ const DosiHero = () => {
 				</div>
 				<div className="col-span-2 md:col-span-1 flex items-center justify-center">
 					<div>
-					<Swiper spaceBetween={20} autoplay={true} slidesPerView={1} loop={true} style={{ width: "100%", maxWidth: 600 }}>
+					<Swiper spaceBetween={20} autoplay={true} slidesPerView={1} loop={true} style={{ width: "100%", maxWidth: 800 }}>
 						<SwiperSlide>
 							<video
 								autoPlay={true}
