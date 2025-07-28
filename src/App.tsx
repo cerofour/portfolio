@@ -18,7 +18,7 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/dosi" element={<Dosi />} />
+          <Route path="/dosi-project" element={<Dosi />} />
         </Routes>
       </Layout>
     </Router>
